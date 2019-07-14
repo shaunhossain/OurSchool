@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lime">#00FF00</color>
+    <color name="activity_bg_color">#F3F3F5</color>
+    <color name="drawer_bg_color">#12384C</color>
+
+    <color name="forest_green">#228B22</color>
+    <color name="toolbar_bg_color">#184D69</color>
+    <color name="button_red">#DD4B39</color>
+    <color name="toolbar_hover_color">#16455E</color>
+    <color name="drawer_text_color">#FFF</color>
+    <color name="black_color">#000</color>
+    <color name="white_color">#FFF</color>
+    <color name="blue">#3C8DBC</color>
+    <color name="lightGrey">#0679C1</color>
+    <color name="username_dialog_bg">#00517F</color>
+    <color name="notification_text_bgcolor">#F39C12</color>
+    <color name="lime_green">#32CD32</color>
+    <color name="purple">#423256</color>
+    <color name="white">#ffffff</color>
+
+</resources>

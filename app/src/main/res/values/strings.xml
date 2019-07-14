@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">OurSchool</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="status">Student</string>
+    <string name="radio_student">Student</string>
+    <string name="radio_lecturer">Teacher</string>
+    <string name="student_name"></string>
+    <string name="phone">Phone Number</string>
+    <string name="phone_number"></string>
+    <string name="student_class">Class</string>
+    <string name="student_class_info"></string>
+    <string name="email"></string>
+    <string name="mail">Email</string>
+    <string name="subjects">Subjects</string>
+    <string name="subjects_list"></string>
+    <string name="full_name">Full Name</string>
+    <string name="add_summary">Choose the option best suitable for the record</string>
+</resources>

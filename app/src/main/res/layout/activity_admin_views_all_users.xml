@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.jaminoss.android.ourschool.AdminViewsAllUsers">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybuttons"
+            android:text="Search"
+            android:fontFamily="sans-serif"
+            android:id="@+id/search_btn"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:layout_margin="10dp"
+            android:layout_alignParentEnd="true" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:id="@+id/search_et"
+            android:padding="15dp"
+            android:layout_toLeftOf="@id/search_btn"
+            android:background="@drawable/rounded_edittext"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:id="@+id/mylv"
+            tools:listitem="@layout/user_item"
+            android:layout_below="@id/search_btn"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
